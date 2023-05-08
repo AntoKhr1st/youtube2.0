@@ -116,7 +116,6 @@ def follow_index(request):
     template = 'posts/follow.html'
     context = {
         'page_obj': page_obj,
-        'title': 'Избранные посты',
     }
     return render(request, template, context)
 
